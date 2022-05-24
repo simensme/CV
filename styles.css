@@ -1,0 +1,117 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  /*centers the whole body*/
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto; /*you can also use rem and em here*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.625rem; /*alternatively: 1em=16px=100% font-size:5.625em;*/
+  /* If you here need 90 pixels you take: 90 (pixels we want)/16(100% is 16px)=5,625 %*/
+  color: #293462;
+  line-height: 2;
+}
+
+p {
+
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin: 10px auto auto auto;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 30px;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:  #11999E;
+
+}
+
+a {
+  color:  #11999E;
+}
+
+p {
+  margin: 0;
+
+}
+
+
+.top-container {
+background-color: #EAF6F6;
+position: relative;
+padding-top: 100px;
+}
+
+.middle-container {
+position: relative;
+margin: 100px 0; /* means that you get 100 px for the top and bottom, and 0 px for the left and right*/
+
+}
+
+.bottom-container {
+position: relative;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+  bottom: 30%;
+
+}
+
+.upper-cloud {
+  position: absolute;
+  right: 35%;
+  top: 5%;
+}
+
+.obamacircle {
+  width: 190px;
+  height: 190px;
+}
+
+.brain {
+  width: 25%;
+  height: 250px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill {
+  width: 30%;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.NTU {
+  width: 45%;
+  height: 250px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
